@@ -1,0 +1,23 @@
+{
+  "name": "n24-homee-helper",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Enyium/n24-homee-helper-js",
+  "repository": "github:Enyium/n24-homee-helper-js",
+  "license": "(MIT OR Apache-2.0)",
+  "type": "module",
+  "bin": "./src/cli.js",
+  "scripts": {
+    "start": "node ./src/cli.js"
+  },
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "commander": "^11.1.0",
+    "homee-api": "^0.24.2",
+    "hour-convert": "^1.0.1",
+    "node-pause": "^1.0.1",
+    "proper-tags": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  }
+}
