@@ -77,7 +77,7 @@ async function onHomeeMessage(homee, message, prefs, doneSender) {
             newTimeTrigger?.dtstart === timeTriggerDataSent.dtstart &&
             newTimeTrigger?.rrule === timeTriggerDataSent.rrule
         ) {
-            console.log("Received confimation about time trigger update from Homee.");
+            console.log("Received confirmation about time trigger update from Homee.");
             doneSender();
         } else {
             await exit(prefs, "Homee failed to update time trigger.");

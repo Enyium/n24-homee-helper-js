@@ -5,7 +5,7 @@ import { stripIndent } from "proper-tags";
 import Homee from "homee-api";
 import { configFileDisplayPath, loadConfig } from "./config.js";
 import { dumpRunningHomeegrams } from "./dump-running-homeegrams.js";
-import { updateSDayPhaseStart } from "./update-s-afternoon-start.js";
+import { updateSDayPhaseStart } from "./update-s-day-phase-start.js";
 import { restartTimeout, exit, npmPackage } from "./util.js";
 
 program
